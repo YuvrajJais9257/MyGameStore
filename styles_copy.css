@@ -1,0 +1,210 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rock Salt', cursive;
+}
+body
+{
+    overflow-x: hidden;
+}
+.resolution
+{
+    width: 2500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.sample
+{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background-size: 100%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ab13037c-c783-46fd-b910-2c40a9ae8438/d2722n4-b4d928a9-d451-44c5-85b4-0379a3c160f0.jpg/v1/fill/w_1024,h_576,q_75,strp/tekken_6_wallpaper_jin__red_by_nin_er_d2722n4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvYWIxMzAzN2MtYzc4My00NmZkLWI5MTAtMmM0MGE5YWU4NDM4XC9kMjcyMm40LWI0ZDkyOGE5LWQ0NTEtNDRjNS04NWI0LTAzNzlhM2MxNjBmMC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IeN7mnIuAua2AoAUiCRwfBsl5Eg0fD7BeQKkkO6Ag9c");
+    background-repeat: no-repeat;
+    position: relative;
+}
+.sample header .logo h3 a
+{
+    display: block;
+    font-size: 32px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #696969;
+}
+.sample header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0 33px;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li table 
+{
+    text-decoration: none;
+    color:white;
+    margin-left: 32px;
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: .5s;
+}
+nav ul li:not(:last-child) table:hover,
+nav ul li:not(:last-child) table:focus
+{
+    border-bottom: 3px solid white;
+}
+nav ul li.store table
+{
+    border-bottom: 3px solid white;
+}
+nav ul li.downloads table
+{
+    background: transparent;
+    color: white;
+    padding: 7px 22px;
+    border-radius: 31px;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+
+nav ul li.downloads:hover table
+{
+    border: 3px solid #696969;
+    color:#000000;
+    background: #696969;
+    transition: .5s;
+}
+.content
+{
+    padding-top: 18px;
+}
+.content .text
+{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;   
+}
+.content .text h3
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: #696969;
+    margin-bottom: 50px;
+}
+.content .text h1
+{
+    font-size: 33px;
+    line-height: 1.5;
+    color: white;
+    margin: 0px 0px 50px;
+    font-family: 'Permanent Marker', cursive;
+}
+.content .text h2
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: #696969;
+}
+.content .text p
+{
+    max-width: 100%;
+    width: 480px;
+    color: #696969;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.content .text table
+{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: transparent;
+    padding: 7px 18px;
+    line-height: 1.5;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.content .text table a.battle
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    background: #696969;
+    padding: 7px 18px;
+    line-height: 1.5;
+    border-radius: 18px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.content .text table a.battle:hover
+{
+    transform: scale(1.2);
+    border: 3px solid #696969;
+    background: #696969;
+    color: #000000;
+    transition: .5s;
+}
+.content .text table a.play table
+{
+    border: 3px solid white;
+    color: white;
+    background: transparent;
+    margin-left: 22px;
+}
+.content .text table a.play table img
+{
+    margin-right: 12px;
+} 
+.content .text table a.play table:hover
+{
+    color: #000000;
+    background: #696969;
+    border: 3px solid #696969;
+    transition: .5s;
+}
+.content .social
+{
+    position: relative;
+    z-index: 2;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.content .social table
+{
+    display: inline-block;
+    color: white;
+    margin-right: 18px;
+    font-size: 22px;
+}
+.content .social table a table:hover
+{
+    transform: scale(1.2);
+    transition: .5s;
+    color: #000000;
+    background: #696969;
+    border: 3px solid#696969;
+    border-radius: 18px;
+}
+.image
+{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+.image img
+{
+    height: 75%;
+}
