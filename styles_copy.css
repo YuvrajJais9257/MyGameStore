@@ -209,7 +209,7 @@ nav ul li.downloads:hover table {
 
 /* Media queries for responsiveness */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .sample header .logo h3 a {
         font-size: 24px;
     }
@@ -261,7 +261,7 @@ nav ul li.downloads:hover table {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .sample header {
         flex-direction: column;
         align-items: flex-start;
@@ -318,5 +318,63 @@ nav ul li.downloads:hover table {
 
     .content .social table a table {
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sample header {
+        padding: 15px 0 10px;
+    }
+
+    .sample header .logo h3 a {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    nav ul li table {
+        margin-left: 6px;
+        font-size: 12px;
+    }
+
+    nav ul li.downloads table {
+        padding: 3px 8px;
+        font-size: 12px;
+        margin-left: 0;
+        margin-top: 6px;
+    }
+
+    .content .text h3 {
+        font-size: 12px;
+    }
+
+    .content .text h1 {
+        font-size: 20px;
+    }
+
+    .content .text h2 {
+        font-size: 12px;
+    }
+
+    .content .text p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .content .text table {
+        padding: 3px 6px;
+        font-size: 12px;
+    }
+
+    .content .text table a.battle,
+    .content .text table a.play table {
+        font-size: 12px;
+    }
+
+    .content .social table {
+        font-size: 14px;
+    }
+
+    .content .social table a table {
+        font-size: 16px;
     }
 }
